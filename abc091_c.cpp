@@ -16,7 +16,7 @@ int main(){
     sort(blue.begin(),blue.end());
 
     // 各赤い点が使用済みかどうか
-    vector<bool> used(N, false);
+    vector<bool> used(N, false); // サイズNのvector<bool>をfalseで初期化 
 
     // 青い点を順番に見ていく
     int res = 0;
